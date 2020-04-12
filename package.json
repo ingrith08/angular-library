@@ -9,6 +9,15 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "main": "dist/my-lib/bundles/my-lib.umd.js",
+  "module": "dist/my-lib/fesm5/my-lib.js",
+  "es2015": "dist/my-lib/fesm2015/my-lib.js",
+  "esm5": "dist/my-lib/esm5/my-lib.js",
+  "esm2015": "dist/my-lib/esm2015/my-lib.js",
+  "fesm5": "dist/my-lib/fesm5/my-lib.js",
+  "fesm2015": "dist/my-lib/fesm2015/my-lib.js",
+  "typings": "dist/my-lib/my-lib.d.ts",
+  "metadata": "dist/my-lib/my-lib.metadata.json",
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.0.7",
